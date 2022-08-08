@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600&family=Poppins:wght@400;500&display=swap');
+body{
+    font-family: 'Poppins', 'Nunito';
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+nav{
+    padding: 20px 40px;
+}
+
+.brand-logo{
+    display: inline-block;
+}
+
+.nav-list{
+    float: right;
+    list-style-type: none;
+}
+
+.list-item{
+    display: inline;
+    margin-right: 30px;
+    font-size: bold;
+}
+
+.register-btn{
+    padding: 10px 28px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #3bb0ff;
+    border: 2px solid #3bb0ff;
+}
+
+.active-btn{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.introduction{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.introduction-image{
+    width: 400px;
+}
+
+.introduction{
+    display: flex;
+    justify-content: space-between;
+}
+
+.read-more-button, .left-section-button{
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    background-image: linear-gradient(to right bottom, #09c0f8, 
+    #00adfa, #0098fa, #0081f6, #0568eb);
+    color: #ffffff;
+    transition: 0.2s;
+    margin-top: 20px;
+}
+
+.left-section-button:hover, .read-more-button:hover{
+    box-shadow: 3px 3px 8px #9a9999;
+}
+
+.introduction-image{
+    margin-right: 20px;
+}
+
+.quality-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.quality-img{
+    width: 450px;
+}
+
+.technical-support{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.technical-support-img{
+    width: 450px;
+}
+
+.icon{
+    width: 40px;
+}
+
+.services-heading{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.services-1, .services-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services{
+    margin-top: 70px;
+}
+
+.services-1, .services-2{
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.pricing{
+    margin-top: 100px;
+    background-image: linear-gradient(to bottom, #09c0f8, #00aefa, 
+    #009af9, #0085f5, #056deb);
+    height: 750px;
+}
+
+.pricing-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pricing-text{
+    text-align: center;
+    color: #ffffff;
+    padding: 40px;
+}
+
+.starter-pack, .popular-pack, .business-pack{
+    background-color: #ffffff;
+    padding: 20px 35px;
+    border-radius: 10px;
+}
+
+.plan-button{
+    padding: 8px 20px;
+    background-color: #ffffff;
+    border: 1px solid #3bb0ff;
+    color: #3bb0ff;
+    border-radius: 5px;
+}
+
+.button-section{
+    text-align: center;
+    padding: 30px 20px;
+}
+
+span{
+    color: #798196;
+}
+
+.customer-reviews{
+    background-color: #fdfeff;
+}
+
+.review-main-heading{
+    text-align: center;
+}
+
+.review-subheading{
+    text-align: center;
+    color: #798196;
+}
+
+.customer-reviews{
+    margin-top: 70px;
+}
+
+.review-cards1{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+
+.review-card-1{
+    background-color: #e9e6e6;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.review-card-2{
+    background-color: #e9f0f7;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.card-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #3bb0ff;
+    display: inline-block;
+}
+
+.author{
+    display: inline-block;
+}
+
+.author h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+.review-cards2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.register{
+    height: 250px;
+    background-image: linear-gradient(to right bottom, #18c7f9, 
+    #00b1fc, #0099fd, #007ff7, #0460e9);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.register-left{
+    color: #ffffff;
+}
+
+.register-right{
+    margin-top: 125px;
+}
+
+.register-right-btn{
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+.register-right-btn:hover{
+    box-shadow: 3px 3px 8px #1f1f1f;
+}
+
+.footer-img{
+    width: 35px;
+    margin-left: 10px;
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 40px;
+}
+
+.footer-list, .footer-link-list, .footer-overview{
+    list-style-type: none;
+}
+
+.footer-head{
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.social-media{
+    margin-top: 50px;
+}
